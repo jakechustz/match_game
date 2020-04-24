@@ -1,0 +1,177 @@
+body {
+  background-image: url(../images/werkroom1.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.headerH1 {
+  font-size: 3rem;
+  background-image: url(../images/rpdrlogo1.png);
+}
+
+.body-container {
+  height: 100%;
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: .5rem;
+}
+
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+aside > div {
+  width: 60%;
+  margin: 4px;
+  padding: 20px;
+  background-color: rgb(224, 156, 183);
+  text-align: center;
+}
+
+.card {
+  background-image: url(../images/Drag\ Race\ Card\ Back.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 5px 0px;
+  position: relative;
+  height: 40%;
+}
+
+
+
+.card-front, .card-back {
+Height: 100%;
+Width: 100%;
+Background-size: cover;
+Background-repeat: no-repeat;
+Background-position: center;
+position: absolute;
+}
+
+.card-back {
+  background-image: url(../images/Drag\ Race\ Card\ Back.jpg);
+}
+
+
+/* logos */
+.jan-pic {
+  background-image: url(../images/jan-pic.png);
+}
+.vanjie-pic {
+  background-image: url(../images/vanjie-pic.jpg);
+}
+.valentina-pic {
+  background-image: url(../images/valentina-pic.jpg);
+}
+.shangela-pic {
+  background-image: url(../images/shangela-pic.png);
+}
+.alyssa-pic {
+  background-image: url(../images/alyssa-pic.JPG);
+}
+.aiden-pic {
+  background-image: url(../images/aiden-pic.jpg);
+}
+.farrah-pic {
+  background-image: url(../images/farrah-pic.jpg);
+}
+.aja-pic {
+  background-image: url(../images/aja-pic.png);
+}
+.trixie-pic {
+  background-image: url(../images/trixie-pic.jpg);
+}
+
+/*modal section*/
+.modal-container {
+  position: fixed;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  text-align: center;
+  background-color: rgb(78, 163, 243);
+  margin-bottom: 5rem;
+  padding: 5rem;
+  font-size: 29px;
+}
+
+/*Play again button*/
+.playagain-button {
+  width: 5rem;
+  height: 3rem;
+  color: blue;
+  background-color: lightblue;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+}
+
+/*column section*/
+.col-1 {
+  width: 8%;
+}
+.col-2 {
+  width: 16%;
+}
+.col-3 {
+  width: 24%;
+}
+.col-4 {
+  width: 32%;
+}
+.col-5 {
+  width: 40%;
+}
+.col-6 {
+  width: 48%;
+}
+.col-7 {
+  width: 56%;
+}
+.col-8 {
+  width: 64%;
+}
+.col-9 {
+  width: 72%;
+}
+.col-10 {
+  width: 80%;
+}
+.col-11 {
+  width: 88%;
+}
+.col-12 {
+  width: 96%;
+}
+
+
+/* hide cards */
+.hidden {
+  display: none;
+}
