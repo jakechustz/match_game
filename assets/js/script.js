@@ -12,7 +12,7 @@ var accuracyText = document.querySelector("#accuracyNum");
 var attemptsText = document.querySelector("#attemptsNum");
 var gamesPlayedText = document.querySelector("#gamesNum");
 var modalButton = document.getElementById("modal-button");
-var logoClasses = ["css-logo", "docker-logo", "github-logo", "html-logo", "js-logo", "mysql-logo", "node-logo", "php-logo", "react-logo", "css-logo", "docker-logo", "github-logo", "html-logo", "js-logo", "mysql-logo", "node-logo", "php-logo", "react-logo"];
+var logoClasses = ["jan-pic", "vanjie-pic", "valentina-pic", "shangela-pic", "alyssa-pic", "aja-pic", "aiden-pic", "farrah-pic", "trixie-pic", "jan-pic", "vanjie-pic", "valentina-pic", "shangela-pic", "alyssa-pic", "aja-pic", "aiden-pic", "farrah-pic", "trixie-pic"];
 var cardFrontEl = document.getElementsByClassName("card-front");
 var cardBack = document.getElementsByClassName("card-back");
 
@@ -41,7 +41,7 @@ function handleClick(event) {
       if (matches === maxMatches) {
         modalEl.classList.remove("hidden");
       }
-      //displayStats();
+      displayStats();
     } else {
       setTimeout(function () {
         firstCardClicked.classList.remove("hidden");
@@ -51,12 +51,12 @@ function handleClick(event) {
         gameCards.addEventListener("click", handleClick);
       }, 1000)
       attempts++;
-      //displayStats();
+      displayStats();
     }
   }
 }
 
-/*
+
 function displayStats() {
   document.querySelector("#gamesNum").textContent = gamesPlayed;
   document.querySelector("#attemptsNum").textContent = attempts;
@@ -128,4 +128,3 @@ function load() {
   shuffleCards();
   createCards();
 }
-*/
